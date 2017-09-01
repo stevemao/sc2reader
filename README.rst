@@ -119,7 +119,7 @@ Loading Replays
 For many users, the most basic commands will handle all of their needs::
 
     import sc2reader
-    replay = sc2reader.load_replay('MyReplay', load_map=true)
+    replay = sc2reader.load_replay('MyReplay.SC2Replay', load_map=True)
 
 This will load all replay data and fix GameHeart games. In some cases, you don't need the full extent of the replay data. You can use the load level option to limit replay loading and improve load times::
 
